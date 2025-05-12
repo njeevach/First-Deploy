@@ -5,11 +5,10 @@ function Hero() {
     return (
         <section className={classes.hero}>
             <div className={classes.image}>
-                <Image src='/images/site/One.jpg'
+                <Image src='/Images/site/One.jpg'
                  alt='An image max' 
                  width={300}
                  height={300}
-                  unoptimized={true}
                  />
             </div>
             <h1>XYZ</h1>
