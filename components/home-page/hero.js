@@ -9,6 +9,7 @@ function Hero() {
                  alt='An image max' 
                  width={300}
                  height={300}
+                  unoptimized={true}
                  />
             </div>
             <h1>XYZ</h1>
