@@ -1,8 +1,8 @@
 import { Fragment } from "react";
-import Hero from "../components/home-page/Hero";
+import Hero from "../components/home-page/hero.js";
 import FeaturedPosts from "../components/home-page/featured-posts";
 import { getFeaturedPosts } from '../lib/posts-util'
-import { revalidatePath } from "next/cache";
+
 import Head from "next/head";
 function HomePage(props) {
 
